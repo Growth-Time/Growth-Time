@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>成长时光APP - 专业成长记录工具</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4ECDC4, #58AF9D);
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        .section {
+            margin-bottom: 4rem;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+            .feature-card i {
+                font-size: 2.5rem;
+                color: #4ECDC4;
+                margin-bottom: 1rem;
+            }
+
+        .apply-section {
+            background: #f0f8ff;
+            padding: 3rem 2rem;
+            border-radius: 12px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #4ECDC4;
+            color: white;
+            padding: 0.8rem 2rem;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 1rem;
+            transition: transform 0.3s;
+        }
+
+            .btn:hover {
+                transform: translateY(-2px);
+            }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #333;
+            color: white;
+            margin-top: 4rem;
+        }
+
+        .github-link {
+            color: #4ECDC4;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>成长时光 <small>Professional Growth Recorder</small></h1>
+            <p class="lead">集记录、分享、展示于一体的专业成长记录软件<br>全程提供实用合理化建议，守护每一步成长</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">核心功能</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>成长记录</h3>
+                    <p>支持文字、图片、视频多形式记录，时间轴清晰呈现成长轨迹</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-share-alt"></i>
+                    <h3>便捷分享</h3>
+                    <p>一键分享至社交平台，与亲友共享成长喜悦</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tv"></i>
+                    <h3>个性展示</h3>
+                    <p>自定义成长档案模板，打造专属展示空间</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>智能建议</h3>
+                    <p>基于成长数据提供个性化发展建议，助力持续进步</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section apply-section">
+            <h2>腾讯开放平台接口申请说明</h2>
+            <p>本应用拟申请以下腾讯移动应用接口：</p>
+            <ul>
+                <li>用户登录接口（QQ/微信快捷登录）</li>
+                <li>社交分享接口（微信朋友圈/QQ空间分享）</li>
+                <li>云存储接口（腾讯云对象存储）</li>
+                <li>消息推送接口（腾讯移动推送）</li>
+            </ul>
+            <p>申请用途：通过腾讯生态接口提升用户体验，实现安全便捷的社交登录、高效稳定的数据存储及精准的消息触达，完善“成长时光”的社交属性与服务稳定性</p>
+            <p>联系方式：<a href="mailto:developer@growthtime.com">575391072@qq.com</a></p>
+            <p><a href="https://open.tencent.com/" class="btn" target="_blank">前往腾讯开放平台</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 成长时光团队</p>
+            <p>项目地址：<a href="https://github.com/GrowthTime-App" class="github-link" target="_blank">GitHub仓库</a></p>
+        </div>
+    </footer>
+
+    <!-- 字体图标库 -->
+    <script src="https://kit.fontawesome.com/your-font-awesome-key.js" crossorigin="anonymous"></script>
+</body>
+</html>
